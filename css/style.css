@@ -1,0 +1,403 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: "Open-sans", sans-serif;
+}
+
+.hero {
+    height: 100vh;
+    background-color: #636c79;
+}
+
+.top-navbar {
+    height: 14vh;
+    margin: 10px 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.top-logo {
+    margin-top: 10px;
+}
+
+.list {
+    flex: 2;
+}
+
+.nav-list {
+    display: flex;
+    justify-content: end;
+    gap: 60px;
+    margin-right: 90px;
+    list-style-type:none;
+      
+
+}
+
+.list-item a{
+    text-decoration: none;
+    color: white; 
+}
+
+.nav-btn button{
+    padding: 15px 40px;
+    background-color: transparent;
+    border: 1px solid #8bb7a2;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+/* hero-sect */
+
+.hero-body {
+    height: 85vh;
+    display: flex;
+    gap: 50px;
+    margin: 30px 90px;
+}
+
+.hero-left {
+    width: 40vw;
+}
+
+.hero-left img {
+    width: 40vw;
+    height: 70vh;
+}
+
+
+
+.hero-right h1 {
+    font-size: 4.5rem;
+    color: white;
+}
+
+.hero-right p {
+    color: white;
+    font-size: 20px;
+    line-height: 1.5em;
+    margin: 30px 0;
+}
+
+
+
+.contact-email input {
+    height: 60px;
+    width: 600px;
+}
+
+
+.contact-email button {
+    padding: 17px 45px;
+    position: relative;
+    display: inline;
+    bottom: 57px;
+    left: 450px;
+    background-color: #8bb7a2;
+    border:none;
+    color:#ffffff;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+/* connectin-section */
+.connect-headline {
+    text-align: center;
+    font-family: 'Raleway',sans-serif;
+    font-size: 1.8rem;
+    padding: 30px 0;
+}
+
+.connect-stats {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.stat {
+    width: 200px;
+    margin: 10px;
+}
+
+.connect-stats div h4 {
+    
+    font-size: 25px;
+    text-align: center;
+}
+
+.connect-stats div p{
+    
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.connect-img {
+    width: 80vw;
+    height: 75vh;
+    margin: 0 10%;
+    overflow: hidden;
+    margin-bottom: 30px;
+}
+
+.connect-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: top;
+}
+
+/* webdesign-section */
+
+.webdesign-headline {
+    text-align: center;
+    font-family: 'Raleway',sans-serif;
+    font-size: 1.8rem;
+    padding: 30px 0;
+}
+
+.webdesign-hero {
+    display: flex;
+    width: 75%;
+    overflow: hidden;
+    margin: 0 12.5%;
+    gap: 100px;
+}
+
+.webdesign-left {
+    font-family: 'Raleway';
+    width: 40%;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    
+}
+
+.webdesign-left h2 {
+    text-align: left;
+    font-size: 2.4rem;
+   
+}
+
+.webdesign-left p {
+    margin: 30px 0;
+    line-height: 1.5em;  
+    font-size: 18px;
+}
+
+.webdesign-left button {
+    padding: 15px 45px;
+    color:#ffffff;
+    background-color: #8bb7a2;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.webdesign-right {
+    height: 600px;
+    width:35rem;
+    overflow: hidden;
+}
+
+.webdesign-right img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: right;
+}
+
+/* marketing-section */
+
+.marketing-section {
+    display: flex;
+    margin: 10% 15%;
+}
+
+.marketing-left {
+    width: 35vw;
+}
+
+.marketing-left img {
+    height: 600px;
+}
+
+.marketing-right {
+    width: 35vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.marketing-right h2 {
+    font-family: 'Raleway';
+    font-size: 2.4rem;
+}
+
+.marketing-right p {
+    margin: 30px 0;
+    line-height: 1.5em;  
+    font-size: 18px;
+}
+
+.marketing-right button {
+    align-self: start;
+    padding: 15px 45px;
+    color:#ffffff;
+    background-color: #8bb7a2;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+/* judge-section */
+
+.judge-section {
+    display: flex;
+    margin: 10% 15%;
+    overflow: hidden;
+}
+
+.judging-left {
+    width: 35vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-right: 100px;
+}
+
+.judging-left h2 {
+    font-family: 'Raleway';
+    font-size: 2.4rem;
+}
+
+.judging-left p {
+    margin: 30px 0;
+    line-height: 1.5em;  
+    font-size: 18px;
+}
+
+.judging-left button {
+    align-self: start;
+    padding: 15px 45px;
+    color:#ffffff;
+    background-color: #8bb7a2;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.judging-right {
+    width: 35vw;
+    overflow: hidden;
+}
+
+.judging-right img {
+    height: 550px;
+    position:relative;
+    right: 130px;
+}
+
+/* team-section */
+
+
+
+.team-headline {
+    display: flex;
+    width: 90%;
+    margin: 5% 5%;
+    justify-content: space-between;
+    font-family: 'Raleway';
+    
+}
+
+.team-headline h1 {
+    font-size: 2.2rem;
+}
+
+.team-headline p {
+    font-size: 18px;
+    line-height: 1.5em;
+}
+
+.tema-info {
+    display: flex;
+    width: 90%;
+    margin: 5% 5%;
+    justify-content: space-between;
+    font-family: 'Raleway';
+}
+
+.team-image img {
+    width: 20vw;
+}
+
+.team-card h4 {
+    margin: 10px 0;
+}
+
+.team-card p {
+    line-height: 1.5em;;
+}
+
+.team-btn button {
+    align-self: center;
+    margin: 0 45%;
+    padding: 15px 45px;
+    color:#ffffff;
+    background-color: #8bb7a2;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+/* footer */
+
+.footer-section {
+    margin-top: 50px;
+    background-color: #01181d;
+    color:#ffffff;
+    font-family: 'Raleway';
+}
+
+.footer-nav {
+    display: flex;
+    padding: 2% 5%;
+    justify-content: space-between;
+}
+
+.social-icons img {
+    color: black;
+    cursor: pointer;
+}
+
+.footer-links {
+    display: flex;
+    justify-content: space-between;
+    padding: 2% 5%;
+    padding-bottom: 100px;
+}
+
+.footer-list h4 {
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+.footer-list ul{
+    list-style-type: none;
+}
+
+.footer-list ul li {
+    font-size: small;
+    line-height: 2em;
+    cursor: pointer;
+}
